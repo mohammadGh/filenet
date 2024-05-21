@@ -5,6 +5,7 @@ export default defineBuildConfig({
     'src/index',
   ],
   declaration: true,
+  sourcemap: true,
   clean: true,
   rollup: {
     emitCJS: true,
