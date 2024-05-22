@@ -1,7 +1,8 @@
 antfu
 changelogen
+Chunker
 citty
 commitlint
+consola
 filenet
 typecheck
-consola
