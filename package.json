@@ -39,6 +39,7 @@
     "dist"
   ],
   "scripts": {
+    "start": "node dist/index.mjs",
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",
