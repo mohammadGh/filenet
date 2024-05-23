@@ -3,6 +3,35 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.1.0
+
+
+### 🚀 Enhancements
+
+- Init the project's structure and deps ([f904f66](https://github.com/mohammadGh/filenet/commit/f904f66))
+- Add progress-bar for serving file ([92fd57e](https://github.com/mohammadGh/filenet/commit/92fd57e))
+- Cli serve command added to serve a file through network ([0293d05](https://github.com/mohammadGh/filenet/commit/0293d05))
+
+### 💅 Refactors
+
+- Refactor server-file.ts to some classes ([c9d52da](https://github.com/mohammadGh/filenet/commit/c9d52da))
+
+### 📦 Build
+
+- Add source-map config to debug ([e75db82](https://github.com/mohammadGh/filenet/commit/e75db82))
+
+### 🏡 Chore
+
+- Basic tcp server with multiple clients ([7c89a4a](https://github.com/mohammadGh/filenet/commit/7c89a4a))
+
+### 🤖 CI
+
+- Basic github-action to auto build, typecheck and test ([2e8d01a](https://github.com/mohammadGh/filenet/commit/2e8d01a))
+
+### ❤️ Contributors
+
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v1.1.1
 
 [compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/v1.1.0...v1.1.1)
