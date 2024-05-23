@@ -25,7 +25,7 @@ export class SocketChunker {
     this.socket.write(buffer)
     this._position += buffer.byteLength
 
-    this.progress && this.progress(this.chunkSize)
+    this.progress && this.progress(this._position)
 
     if (!buffer || buffer.byteLength < this.chunkSize) {
       // end of file reached

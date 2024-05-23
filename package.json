@@ -6,15 +6,10 @@
   "author": "mgh <m.ghoreshi@gmail.com>",
   "license": "MIT",
   "keywords": [
-    "typescript",
-    "eslint",
-    "lib starter",
-    "library",
-    "commitizen",
-    "husky",
-    "conventional-changelog",
-    "conventional-commits",
-    "release-it"
+    "network",
+    "network utility",
+    "serve file",
+    "file transfer"
   ],
   "sideEffects": false,
   "exports": {
@@ -35,11 +30,14 @@
       ]
     }
   },
+  "bin": {
+    "filenet": "./dist/cli.mjs"
+  },
   "files": [
     "dist"
   ],
   "scripts": {
-    "start": "node dist/index.mjs",
+    "start": "node dist/cli.mjs",
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",
