@@ -16,7 +16,7 @@ export default defineCommand({
     },
     host: {
       type: 'string',
-      default: '127.0.0.1',
+      default: '0.0.0.0',
       description: 'server host',
     },
     chunksize: {
@@ -26,7 +26,7 @@ export default defineCommand({
     },
     delay: {
       type: 'string',
-      default: '1000',
+      default: '500',
       description: 'delay in ms',
     },
     file: {

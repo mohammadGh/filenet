@@ -8,3 +8,5 @@ filenet
 KMGT
 typecheck
 cli
+chunksize
+netcat

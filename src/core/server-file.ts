@@ -28,7 +28,7 @@ export function serveFile(serverPort: number, serverHost: string, fileToServe: s
   const progressBars = new ProgressBars()
 
   server.listen(port, host, () => {
-    consola.start(`TCP File Server is running on ${host}:${port}.`)
+    consola.start(`TCP File Server is running on ${host}:${port}`)
     consola.start(`Chunk Size: ${humanFileSize(chunkSize)} | Delay (between each chunk): ${delay} ms`)
     consola.success(`File: ${file} | Size: ${humanFileSize(fileSize)} \n`)
 
