@@ -3,6 +3,18 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.1.1
+
+[compare changes](https://github.com/mohammadGh/filenet/compare/v0.1.0...v0.1.1)
+
+### 📖 Documentation
+
+- Add basic readme and usage guidelines ([f65bba7](https://github.com/mohammadGh/filenet/commit/f65bba7))
+
+### ❤️ Contributors
+
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v0.1.0
 
 
