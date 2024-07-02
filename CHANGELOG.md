@@ -3,6 +3,19 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.1.3
+
+[compare changes](https://github.com/mohammadGh/filenet/compare/v0.1.2...v0.1.3)
+
+### 🩹 Fixes
+
+- **ci:** Add package-manager ([64880f1](https://github.com/mohammadGh/filenet/commit/64880f1))
+- Add status for each socket and exception handling when socket is closed ([50091cd](https://github.com/mohammadGh/filenet/commit/50091cd))
+
+### ❤️ Contributors
+
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v0.1.2
 
 [compare changes](https://github.com/mohammadGh/filenet/compare/v0.1.1...v0.1.2)
