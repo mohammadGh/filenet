@@ -8,9 +8,16 @@
   "keywords": [
     "network",
     "network utility",
-    "serve file",
+    "file server",
     "file transfer"
   ],
+  "license": "MIT",
+  "homepage": "https://github.com/mohammadGh/filenet.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadGh/filenet.git"
+  },
+  "bugs": "https://github.com/mohammadGh/filenet/issues",
   "sideEffects": false,
   "exports": {
     ".": {
