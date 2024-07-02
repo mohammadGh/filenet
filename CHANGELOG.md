@@ -3,6 +3,23 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.1.2
+
+[compare changes](https://github.com/mohammadGh/filenet/compare/v0.1.1...v0.1.2)
+
+### 🩹 Fixes
+
+- **docs:** Update README.md ([f65b6d8](https://github.com/mohammadGh/filenet/commit/f65b6d8))
+- Re-ordering package json fields ([6cdc4c4](https://github.com/mohammadGh/filenet/commit/6cdc4c4))
+
+### 📦 Build
+
+- Add git repo and issue management links to the project ([510499c](https://github.com/mohammadGh/filenet/commit/510499c))
+
+### ❤️ Contributors
+
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v0.1.1
 
 [compare changes](https://github.com/mohammadGh/filenet/compare/v0.1.0...v0.1.1)
