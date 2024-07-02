@@ -5,19 +5,18 @@
   "description": "files on network",
   "author": "mgh <m.ghoreshi@gmail.com>",
   "license": "MIT",
-  "keywords": [
-    "network",
-    "network utility",
-    "file server",
-    "file transfer"
-  ],
-  "license": "MIT",
   "homepage": "https://github.com/mohammadGh/filenet.git",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mohammadGh/filenet.git"
   },
   "bugs": "https://github.com/mohammadGh/filenet/issues",
+  "keywords": [
+    "network",
+    "network utility",
+    "file server",
+    "file transfer"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
