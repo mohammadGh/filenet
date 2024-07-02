@@ -44,7 +44,7 @@
     "dist"
   ],
   "scripts": {
-    "start": "node dist/cli.mjs",
+    "start": "unbuild && node dist/cli.mjs",
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",

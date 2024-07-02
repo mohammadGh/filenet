@@ -10,7 +10,7 @@ export class ProgressBars {
   constructor() {
     // create new container
     this.progressBars = new cliProgress.MultiBar({
-      format: ' {bar} {percentage}% | to ⇒ {name} | {value}/{total} | {humanSize}',
+      format: ' {bar} {percentage}% | to ⇒ {name} | {value}/{total} | {humanSize} | {status}',
       hideCursor: false,
       barCompleteChar: '\u2588',
       barIncompleteChar: '\u2591',

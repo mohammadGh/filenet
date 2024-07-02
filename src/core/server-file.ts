@@ -60,7 +60,7 @@ export function serveFile(serverPort: number, serverHost: string, fileToServe: s
         file,
         chunkSize,
         delay, //
-        progress: humanSize => progressBars.increment(clientName, { humanSize: humanFileSize(humanSize) }),
+        progress: humanSize => progressBars.increment(clientName, { humanSize: humanFileSize(humanSize), status: 'Working' }),
       },
     )
     chunker.nextChunk()
@@ -70,12 +70,13 @@ export function serveFile(serverPort: number, serverHost: string, fileToServe: s
     })
 
     // Add a 'close' event handler to this instance of socket
-    sock.on('close', (_data) => {
+    sock.on('close', (_hadError) => {
       const index = sockets.findIndex((o) => {
         return o.remoteAddress === sock.remoteAddress && o.remotePort === sock.remotePort
       })
       if (index !== -1)
         sockets.splice(index, 1)
+      progressBars.update(getSocketName(sock), { status: 'Closed' })
       progressBars.log(`CLOSED: ${sock.remoteAddress} ${sock.remotePort}`)
     })
   })
